@@ -2,9 +2,9 @@
   "type": "postgres",
   "host": "localhost",
   "username": "postgres",
-  "password": "postgres",
+  "password": "docker",
   "database": "rentex",
-  "migration": [
+  "migrations": [
     "./src/database/migrations/*{.ts}"
   ],
   "cli": {
