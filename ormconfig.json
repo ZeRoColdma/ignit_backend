@@ -1,11 +1,11 @@
 {
   "type": "postgres",
-  "host": "localhost",
+  "host": "0.0.0.0",
   "username": "postgres",
-  "password": "docker",
+  "password": "postgres",
   "database": "rentex",
   "migrations": [
-    "./src/database/migrations/*{.ts}"
+    "./src/database/migrations/*{.ts, .js}"
   ],
   "cli": {
     "migrationsDir": "./src/database/migrations"
