@@ -8,6 +8,7 @@
     "./src/database/migrations/*{.ts, .js}"
   ],
   "cli": {
-    "migrationsDir": "./src/database/migrations"
+    "migrationsDir": "./src/database/migrations",
+    "entitiesDir": "./src/modules/cars/entities"
   }
 }

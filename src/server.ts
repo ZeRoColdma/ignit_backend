@@ -1,9 +1,9 @@
 import express from "express";
 
+import "./database";
+import "./shared/container";
 import { categoriesRoutes } from "./routes/categories.routes";
 import { specificationsRouter } from "./routes/Specifications.routes";
-
-import "./database";
 
 const app = express();
 app.use(express.json());
